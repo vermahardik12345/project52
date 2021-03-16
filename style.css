@@ -1,0 +1,119 @@
+.menu{
+    display: flex;
+   
+    background-color: black;
+    font-size: 50px;
+    font-family:fantasy;
+    font-weight: 400;
+    color:#ffffff;
+    padding: 50px;
+    
+}
+body{
+    background-color: #f5f5f5;
+}
+.text{
+   
+    color:steelblue;
+   
+    margin-right: 30px;
+    justify-content: space-between;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:wheat;
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
+.heading{
+    color:palevioletred;
+    margin-left: 450px;
+    font-family:monospace;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-width: 50px;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+    background-color:#00ffff;
+    border-color: #00eedd;
+    border-width: 10px;
+}
+.origami{
+    border-radius: 60px;
+  margin-top: 20px;
+    background-color:#00ffff;
+    width: 310px;
+    font-family: fantasy;
+    border-width: 50px;
+    color: #b8860b;
+    text-decoration: underline;
+    margin-right: 50px;
+}
+.name{
+    color:#ffffff;
+    display: flex;
+    margin-left: 450px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+     font-family: fantasy;
+     background-size: 50px;
+     background-color:#adff2f;
+padding: 30px;
+}
+a:link{
+    color: #ffffff;
+}
+a:visited{
+    color: #ff6347;
+}
+.origami{
+    position: relative;
+ 
+ }
+ .origami p{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform:translate(-40%,-30%);
+  opacity: 0;
+ 
+  
+ }
+ 
+ 
+ .origami:hover p{
+  opacity: 0.5;
+ }
+ .origami:hover img{
+     opacity: 1;
+     -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  
+ }
+ a:link{
+     text-decoration: none;
+ }
+ .aboutme:hover{
+transform: scale(1.1);
+ }
+ .origami:hover li{
+     transform: scale(1.02);
+ }
+ .name:hover{
+     transform: scale(2);
+ }
+ .text:hover{
+     transform: scale(1.05);
+ }
+ 
